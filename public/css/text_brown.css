@@ -4,7 +4,6 @@ h1,h2,h3,h4,h5,h6 {
 
 h1.Nav {
 	font: 30px "GillSans-Light", "Century Gothic","Arial";
-	color:#FFFFFF;
 	white-space:nowrap;
 	letter-spacing: 1px;
 	margin: 0px; 
@@ -40,16 +39,16 @@ a {
 
 /* Nav Links */
 a.Nav:link {
-	color: #FFFFFF;
+	color: #A5DCFF;
 }
 a.Nav:visited {
-	color: #FFFFFF;
+	color: #A5DCFF;
 }
 a.Nav:hover {
-	color: #91C9ED;
+	color: #82B2D1;
 }
 a.Nav:active {
-	color: #A5DCFF;
+	color: #82B2D1;
 }
 
 
@@ -63,6 +62,10 @@ a.Text:visited {
 a.Text:hover,a.Text:active {
 	color: #82B2D1; /*7CC3DD*/
 }
+a.Nav:active {
+	color: #82B2D1;
+}
+
 
 #Title {
 	font-family:"GillSans-Light", "Century Gothic","Arial";
