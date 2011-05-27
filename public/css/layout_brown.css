@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #433E37; /*433E37	38342E*/
+	background-color: #433E37; /*Best: 433E37	38342E*/
 }
 
 div *, h1 *, h2 *, h3 *{
@@ -37,3 +37,116 @@ div.Spacer12 {
 div.Text {
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#navlist{position:relative;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:20px;display:block;}
+
+#gmail{left:0px;width:28px;}
+#gmail{
+	background-image:url('http://localhost:3000/images/social_icons_yellofied.png');
+	background-position: 0 0;
+	}
+#gmail a:hover{
+	background-image: url('http://localhost:3000/images/social_icons_yellofied.png');
+	background-image: url('http://farm4.static.flickr.com/3159/buddyicons/27749024@N07.jpg?1227713596');
+	background-position:0 -21px;
+	background:none;
+	}
+
+#facebook{left:28px;width:9px;}
+#facebook{background:url('http://localhost:3000/images/social_icons_yellofied.png') -28px 0;}
+#facebook a:hover{background: url('http://localhost:3000/images/social_icons_yellofied.png') -28px -20px;}
+
+#twitter{left:37px;width:27px;}
+#twitter{background:url('http://localhost:3000/images/social_icons_yellofied.png') -37px 0;}
+#twitter a:hover{background: url('http://localhost:3000/images/social_icons_yellofied.png') -37px -20px;}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#HiSpacer {
+	height:5px;
+}
+
+.social {
+	display:inline;
+}
+
+.social li{
+	float:left;
+	margin: 0px;
+	padding-right: 20px;
+	display:inline;
+}
+.social a{
+	width:28px;
+	height:20px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(http://localhost:3000/images/social_icons_yellofied.png) no-repeat;
+}
+.social .twitter:hover {background-position:0 100%;}
+
+.social .facebook{
+	width:9px;
+	background-position:-28px 0;
+}
+.social .facebook:hover {background-position:-28px 100%;}
+
+.social .gmail{
+	width:27px;
+	background-position:-37px 0;
+}
+.social .gmail:hover {background-position:-37px 100%;}

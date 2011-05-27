@@ -39,13 +39,13 @@ a {
 
 /* Nav Links */
 a.Nav:link {
-	color: #A5DCFF;
+	color: #FFFFFF; /*A5DCFF*/
 }
 a.Nav:visited {
-	color: #A5DCFF;
+	color: #FFFFFF;
 }
 a.Nav:hover {
-	color: #82B2D1;
+	color: #82B2D1; /*82B2D1*/
 }
 a.Nav:active {
 	color: #82B2D1;
