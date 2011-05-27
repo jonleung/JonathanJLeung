@@ -1,0 +1,74 @@
+h1,h2,h3,h4,h5,h6 {
+	display: inline;
+}
+
+h1.Nav {
+	font: 30px "GillSans-Light", "Century Gothic","Arial";
+	color:#FFFFFF;
+	white-space:nowrap;
+	letter-spacing: 1px;
+	margin: 0px; 
+	padding: 0px;
+	display: inline;
+}
+
+#current.Nav {
+	color:#75ba0b;	
+}
+
+format.light_gray {
+	color:#585858;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+h2.Text{
+	/*color: #404040;*/
+	color:#E3DFD1; /*#CAC7B9*/
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	white-space:nowrap;
+}
+
+a {
+	text-decoration:none;	
+}
+
+/* Nav Links */
+a.Nav:link {
+	color: #FFFFFF;
+}
+a.Nav:visited {
+	color: #FFFFFF;
+}
+a.Nav:hover {
+	color: #91C9ED;
+}
+a.Nav:active {
+	color: #A5DCFF;
+}
+
+
+/* Text Links */
+a.Text:link {
+	color: #A5DCFF; /*A5DCFF OR Green:75ba0b*/
+}
+a.Text:visited {
+	color: #A5DCFF;
+}
+a.Text:hover,a.Text:active {
+	color: #82B2D1; /*7CC3DD*/
+}
+
+#Title {
+	font-family:"GillSans-Light", "Century Gothic","Arial";
+	font-size:23px;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #433E37; /*433E37	38342E*/
+}
+
+div *, h1 *, h2 *, h3 *{
+	margin:0px;
+	padding:0px;
+}
+
+div.Main {
+	margin-top: 65px;
+	padding-top:40px;
+	margin-left: 60px;
+	padding-left:40px;
+	max-width:470px;
+	padding-right:40px;
+	padding-bottom:40px;
+	/*
+	border-width: 50px;
+	border-style:solid;
+	border-color: #38342E;
+	*/
+	background-color:#433E37;
+	
+}
+
+div.Nav {
+	
+}
+
+div.Spacer12 {
+	padding-top:30px;
+}
+
+div.Text {
+	
+}
