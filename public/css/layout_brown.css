@@ -135,7 +135,7 @@ div.Text {
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
-	background:url(http://localhost:3000/images/social_icons_yellofied.png) no-repeat;
+	background:url('../images/social_icons_yellofied.png') no-repeat;
 }
 .social .twitter:hover {background-position:0 100%;}
 
