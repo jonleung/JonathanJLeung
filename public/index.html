@@ -27,11 +27,13 @@
 	<meta name="robots" content="all" /> 
 	
 	<script type="text/javascript" src="http://fast.fonts.com/jsapi/f045c01b-713f-4aa3-b5e4-ae515caeeb7f.js"></script></head>
+	
+	
  
-<body>
+<body id="TheBody">
 	
 	
-<div class="Main">
+<div class="Main" id="Main">
 	<!--Navigation-->
 	<div class="Nav">
 		<h1 class="Nav">
@@ -116,6 +118,17 @@
 	
 </div><!--Main END-->
 
+<!--
+<script language=javascript>
+var xx = document.getElementById('TheBody').getElementsByTagName('div');
+var ptn=/position: fixed/;
+for(var i=0; i<xx.length; i++) {
+    while(ptn.exec(xx[i].href)){
+        alert(xx[i]);
+        xx[i].parentNode.removeChild(xx[i]);
+    }
+}
+</script>-->
 
 	
 	
