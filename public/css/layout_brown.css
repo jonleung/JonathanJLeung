@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #433E37; /*Best: 433E37	38342E*/
+	background-color: #453B2F ; /*Best: 433E37   574A3B	38342E*/
 }
 
 div *, h1 *, h2 *, h3 *{
@@ -22,7 +22,8 @@ div.Main {
 	border-style:solid;
 	border-color: #38342E;
 	*/
-	background-color:#433E37;
+	
+	/*background-color:#433E37;*/
 	
 }
 

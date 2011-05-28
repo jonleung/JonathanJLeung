@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 h1.Nav {
-	font: 30px "Gill Sans W01 Light", "GillSans-Light", "Century Gothic","Arial";
+	font: 30px "GillSans-Light", "Gill Sans W01 Light", "Century Gothic","Arial";
 	white-space:nowrap;
 	letter-spacing: 1px;
 	margin: 0px; 
@@ -17,8 +17,8 @@ h1.Nav {
 }
 
 format.light_gray {
-	color:#585858;
-	font-family: ,'Gill Sans W01 Light', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color:#330000;
+	font-family: ,'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'HelveticaNeue W01 25 UltLt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 28px;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -26,11 +26,11 @@ format.light_gray {
 
 h2.Text{
 	/*color: #404040;*/
-	color:#E3DFD1; /*#CAC7B9*/
-	font-family: 'Gill Sans W01 Light', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color:#E3DFD1; /*#CAC7B9*/ /*Use gill sans for windows*/
+	font-family:  'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue W01 45 Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 19px;
-	font-weight: normal;
-	letter-spacing: 1px;
+	font-weight: normal; 
+	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
 	white-space:nowrap;
 }
 
