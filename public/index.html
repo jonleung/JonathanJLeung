@@ -28,7 +28,9 @@
 	<meta name="author" content="Jonathan J. Leung, jonleung@seas.upenn.edu" /> 
 	<meta name="robots" content="all" /> 
 	
-	<script src="javascript/webfonts_mod.js" type="text/javascript" charset="utf-8"></script>
+</head>
+	
+	
 	
 	
 	
@@ -122,18 +124,25 @@
 </div><!--Main END-->
 
 
-<script language=javascript>
-var xx = document.getElementById('TheBody').getElementsByTagName('div');
-var ptn=/position: fixed/;
-for(var i=0; i<xx.length; i++) {
-    while(ptn.exec(xx[i].href)){
-        alert(xx[i]);
-        xx[i].parentNode.removeChild(xx[i]);
-    }
-}
-</script>
-
+	<script type="text/javascript">
+ 	alert('i');
+var i = 0;
+		//setTimeout("alert('hello')",5000);
+		while(i<1000){
+		$('div').each(function (i,n){
+		    if(!$(n).attr('class') && !$(n).attr('id')){
+		       $(n).remove();
+				break;
+		    }else{
+		    }
+		});
+		i++;
+	}
+ 
 	
+		
+ 
+	</script>	
 	
 
 </body> 
