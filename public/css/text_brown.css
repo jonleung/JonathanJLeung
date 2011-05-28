@@ -18,7 +18,7 @@ h1.Nav {
 
 format.light_gray {
 	color:#585858;
-	font-family: 'Gill Sans W01 Light', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: ,'Gill Sans W01 Light', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 28px;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -27,7 +27,7 @@ format.light_gray {
 h2.Text{
 	/*color: #404040;*/
 	color:#E3DFD1; /*#CAC7B9*/
-	font-family: 'HelveticaNeue W01 25 UltLt', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: 'Gill Sans W01 Light', 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 19px;
 	font-weight: normal;
 	letter-spacing: 2px;
