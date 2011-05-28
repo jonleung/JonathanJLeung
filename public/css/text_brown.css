@@ -27,7 +27,7 @@ format.light_gray {
 h2.Text{
 	/*color: #404040;*/
 	color:#E3DFD1; /*#CAC7B9*/ /*Use gill sans for windows*/
-	font-family:  'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue W01 45 Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family:  'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', "Gill Sans W01 Light", 'Helvetica Neue W01 45 Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 19px;
 	font-weight: normal; 
 	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
