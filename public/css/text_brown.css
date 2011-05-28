@@ -2,9 +2,8 @@ h1,h2,h3,h4,h5,h6 {
 	display: inline;
 }
 
-
 h1.Nav {
-	font: 30px "GillSans-Light", "Gill Sans W01 Light", "Century Gothic","Arial";
+	font: 30px "GillSans-Light", "Gill Sans", "GillSans-Light", "Gill Sans W01 Light", "Century Gothic","Arial";
 	white-space:nowrap;
 	letter-spacing: 1px;
 	margin: 0px; 
@@ -31,7 +30,6 @@ h2.Text{/**/
 	color:#F2EBD0; /*E3DFD1   #CAC7B9*/ /*Use gill sans for windows*/
 	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', "Gill Sans W01 Light", 'Helvetica Neue W01 45 Light', 'Helvetica Neue', 'Century Gothic', Arial, Helvetica, sans-serif;
 	font-size: 19px;
-	font-weight: normal; 
 	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
 	white-space:nowrap;
 	font-weight: 100;
@@ -76,6 +74,14 @@ a.Nav:active {
 	font-size:23px;
 }
 
+h2.BottomText {
+	color:#F2EBD0; /*E3DFD1   #CAC7B9*/ /*Use gill sans for windows*/
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', "Gill Sans W01 Light", 'Helvetica Neue W01 45 Light', 'Helvetica Neue', 'Century Gothic', Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
+	white-space:nowrap;
+	font-weight: 100;
+}
 
 
 

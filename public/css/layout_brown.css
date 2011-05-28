@@ -39,6 +39,16 @@ div.Text {
 	
 }
 
+div.BottomText {
+	float:bottom;
+}
+
+h2.BottomText {
+	position:absolute;
+	bottom: 10px;
+	left:101.75px;
+	float:left;
+}
 
 
 
@@ -151,3 +161,21 @@ div.Text {
 	background-position:-37px 0;
 }
 .social .gmail:hover {background-position:-37px 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
