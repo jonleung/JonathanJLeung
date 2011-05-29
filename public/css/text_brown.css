@@ -6,8 +6,6 @@ h1.Nav {
 	font: 30px "GillSans-Light", "Gill Sans", "GillSans-Light", "Gill Sans W01 Light", "Century Gothic","Arial";
 	white-space:nowrap;
 	letter-spacing: 1px;
-	margin: 0px; 
-	padding: 0px;
 	display: inline;
 	font-weight: 100;
 }
