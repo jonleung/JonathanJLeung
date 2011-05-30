@@ -67,6 +67,21 @@ a.Nav:active {
 }
 
 
+/* Text Links */
+a.Subtle:link {
+	color: #F2EBD0; /*B8E2FC		A5DCFF OR Green:75ba0b*/
+}
+a.Subtle:visited {
+	color: #F2EBD0;
+}
+a.Subtle:hover,a.Subtle:active {
+	color: #A5DCFF; /*7CC3DD*/
+}
+a.Subtle:active {
+	color: #82B2D1;
+}
+
+
 #Title {
 	font-family:"GillSans-Light", "Century Gothic","Arial";
 	font-size:23px;
